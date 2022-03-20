@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  overflow-x:hidden; 
+  background-color: #fff;
+}
+
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+.ball {
+  position: absolute;
+  border-radius: 100%;
+  opacity: 0.7;
+}
+
+.sobre {
+    width: 150px;
+    height: 80px;
+    position: absolute;
+    top: 9%;
+    left: 45%;
+}
+
+.wrapper-1 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+
+}
+
+.wrapper-2 {
+    text-align: center;
+    margin-top: 30%;
+}
+
+h1 {
+    font-family: 'Unica One', cursive;
+    background-image: url(https://media.giphy.com/media/hWWeurJRRMGnVyN9Em/giphy-downsized-large.gif?cid=ecf05e47otjc68ouy571cb4x6l64rgnhjfoawucfbq6m4ygz&rid=giphy-downsized-large.gif&ct=g);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-transform: uppercase;
+    font-size: 100px;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+ 
+  }
+
+.wrapper-2 p {
+    margin: 0;
+    font-family: 'Unica One', cursive;
+    background-image: url(https://media.giphy.com/media/hWWeurJRRMGnVyN9Em/giphy-downsized-large.gif?cid=ecf05e47otjc68ouy571cb4x6l64rgnhjfoawucfbq6m4ygz&rid=giphy-downsized-large.gif&ct=g);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 40px;
+}
+
+.go-home {
+    background-color: transparent;
+    padding: 10px 15px;
+    margin: 30px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5%;
+    border: 1px solid #0794A9;
+}
+
+.go-home a {
+    font-family: Sans-serif;
+    font-size: 0.7rem;
+    font-weight: 700 !important;
+    letter-spacing: 2px;
+    background-image: url(https://media.giphy.com/media/hWWeurJRRMGnVyN9Em/giphy-downsized-large.gif?cid=ecf05e47otjc68ouy571cb4x6l64rgnhjfoawucfbq6m4ygz&rid=giphy-downsized-large.gif&ct=g);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+.go-home:hover {
+    background-color: transparent;
+    transition: background-color 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+.go-home a:hover {
+    color: #0794A9;
+    text-decoration: none;
+}
+
+/*Media queries*/
+
+@media screen and (min-width: 360px) and (max-width: 812px) {
+
+  html, body {
+        max-width: 100% !important;
+        overflow: hidden !important;
+ }
+
+ .sobre {
+    position: static;
+    width: 100px;
+    height: 50px;
+    top: 10%;
+    left: 38%;
+ }
+
+ .wrapper-2 p {
+        font-size: 35px;
+        margin: auto;
+        width: 300px;
+    }
+
+ h1 {
+    font-size: 50px;
+    position: static;
+    top: 10%;
+    left: 27%;
+}
+
+ .go-home {
+    margin-top: 20%;
+}
+}
+
+@media only screen and (min-width: 813px) and (max-width: 1024px) {
+
+ .sobre {
+    width: 150px;
+    height: 80px;
+    top: 10%;
+    left: 41%;
+ }
+ .wrapper-2 p {
+    font-size: 40px;
+    margin-top: 20%;
+    width: 600px;
+    margin-left: 15%;
+}
+
+ h1 {
+    font-size: 100px;
+    top: 20%;
+    left: 27%;
+ }
+
+ .go-home {
+    margin-top: 20%;
+ }
+  
+
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1336px) {
+
+.sobre {
+    width: 150px;
+    height: 80px;
+    top: 10%;
+    left: 41%;
+}
+
+ .wrapper-2 p {
+
+    font-size: 40px;
+    margin-top: 20%;
+    width: 600px;
+    margin-left: 22%;
+}
+
+ h1 {
+    font-size: 100px;
+    top: 20%;
+    left: 32%;
+ }
+
+ .go-home {
+    margin-top: 18%;
+ }
+}
